@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Skip') {
             steps {
-                -Denforcer.skip=true'
+                 Denforcer.skip=true'
             }
         }
         stage('Build') {
